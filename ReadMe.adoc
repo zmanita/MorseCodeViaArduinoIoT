@@ -1,58 +1,26 @@
 :Author: zmanita
 :Email:
 :Date: 26/11/2023
-:Revision: version#
+:Revision: version#2
 :License: Public Domain
 
 = Project: {Project}
 
-Describe your project
+This project displays a message (on Morse code) sent to an Arduino board from the messenger widget on the Arduino IoT cloud. 
 
 == Step 1: Installation
-Please describe the steps to install this project.
+1. Download and run the zip code like any other Arduino code.
+(Import all your sketches and libraries at once:
+Compress the Arduino folder that contains all your sketches and custom libraries in .Zip format.
+Make sure your libraries are in a folder called ‘libraries’. Be sure not to mix sketches and libraries in the same folder.
+Remember that you can import libraries just in .Zip, while sketches can be in .Zip, .Ino or .Pde)
 
-For example:
-
-1. Open this file
-2. Edit as you like
-3. Release to the World!
+2. This sketch file is for running on desktop apps, although it was originally created to run on the Arduino web editor. To run on the web editor, read through the code Untitled_nov26c.ino and add all the necessary variables as "Arduino Things" on the cloud. 
 
 == Step 2: Assemble the circuit
 
-Assemble the circuit following the diagram layout.png attached to the sketch
+Assemble the circuit following the diagram LedCircuit.png attached to the sketch. Change the digital pin number according to the code.
 
 == Step 3: Load the code
 
-Upload the code contained in this sketch on to your board
-
-=== Folder structure
-
-....
- sketch123                => Arduino sketch folder
-  ├── sketch123.ino       => main Arduino file
-  ├── schematics.png      => (optional) an image of the required schematics
-  ├── layout.png          => (optional) an image of the layout
-  └── ReadMe.adoc         => this file
-....
-
-=== License
-This project is released under a {License} License.
-
-=== Contributing
-To contribute to this project please contact: 
-
-=== BOM
-Add the bill of the materials you need for this project.
-
-|===
-| ID | Part name      | Part number | Quantity
-| R1 | 10k Resistor   | 1234-abcd   | 10       
-| L1 | Red LED        | 2345-asdf   | 5        
-| A1 | Arduino Zero   | ABX00066    | 1        
-|===
-
-
-=== Help
-This document is written in the _AsciiDoc_ format, a markup language to describe documents. 
-If you need help you can search the http://www.methods.co.nz/asciidoc[AsciiDoc homepage]
-or consult the http://powerman.name/doc/asciidoc[AsciiDoc cheatsheet]
+Upload the code contained in this sketch onto your board.
