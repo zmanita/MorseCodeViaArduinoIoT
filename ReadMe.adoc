@@ -4,7 +4,7 @@
 :Revision: version#2
 :License: Public Domain
 
-= Project: {Project}
+= Project: Morse Code IoT Project
 
 This project displays a message (on Morse code) sent to an Arduino board from the messenger widget on the Arduino IoT cloud. 
 
